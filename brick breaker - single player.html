@@ -1,0 +1,58 @@
+<!-- JONATHAN HERRERA -->
+
+<!-- followed the guide at:
+https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript
+ -->
+
+<!doctype html>
+
+<html>
+
+	<head>
+		
+		<meta charset="UTF-8">
+		<title> Brick Breaker </title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		
+		
+	</head>
+	
+	<body>
+	
+		<section id="gameArea">
+			<input type="submit" id="runGame" value="Play!">
+			<br>
+			<canvas id="canvas" width="480" height="500"></canvas>
+			<script src="js/script.js"></script>
+		</section>
+		
+	</body>
+	
+</html>
+
+<!-- Shape repository
+//RECTANGLE
+			ctx.beginPath();
+			ctx.rect(20, 40, 50, 50);
+			//.rect(x, y, width, height)
+			ctx.fillStyle = "#FF0000";
+			ctx.fill();
+			//need this to actually color in our shape
+			ctx.closePath();
+			//using closeStroke() results in an outline on the shape
+			
+			//CIRCLE
+			ctx.beginPath();
+			ctx.arc(240, 160, 20, 0, 2 * Math.PI, false);
+			//.arc(x, y, r, sAngle, eAngle, ccw)
+			ctx.fillStyle = "green";
+			ctx.fill();
+			ctx.closePath();
+			
+			//RECTANGLE2
+			ctx.beginPath();
+			ctx.rect(160, 10, 100, 40);
+			ctx.strokeStyle = "rgba(0, 0, 255, 0.5)";
+			//changing the color of the stroke
+			ctx.stroke();
+			ctx.closePath(); -->

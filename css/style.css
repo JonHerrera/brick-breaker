@@ -1,0 +1,19 @@
+body {
+	background-color: #151515;
+}
+
+canvas {
+	border: 0.5px solid purple; 
+	border-bottom: 1px solid red;
+}
+
+#runGame {
+	width: 480px;
+	color: aqua;
+	background-color: purple;
+	border: 1px solid purple;
+}
+
+#gameArea {
+	text-align: center;
+}
